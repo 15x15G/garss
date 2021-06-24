@@ -148,8 +148,8 @@ def main():
     content = markdown.markdown(readme_md, extensions=['tables', 'fenced_code'])
     cp_readme_md_to_docs()
     cp_media_to_docs()
-    email_list = get_email_list()
-    send_mail(email_list, "嘎!RSS订阅", content)
+    #　email_list = get_email_list()
+    # send_mail(email_list, "嘎!RSS订阅", content)
 
 
 main()
