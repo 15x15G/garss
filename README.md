@@ -1,6 +1,6 @@
 # Github Actions Rss 
 
-garss, 嘎RSS! 已收集4个RSS源, 生成时间: 2021-06-24 16:38:12
+garss, 嘎RSS! 已收集4个RSS源, 生成时间: 2021-06-25 06:07:05
 
 ## 《嘎!RSS》🐣为打破信息茧房而生
 
@@ -21,4 +21,4 @@ garss, 嘎RSS! 已收集4个RSS源, 生成时间: 2021-06-24 16:38:12
 | <h2 id="资源类">资源类</h2> |  |   |  |
 | <div id="R001" style="text-align: center;"><img src="./_media/favicon/R001.png" width="30px" style="width:30px;height: auto;"/><br><span>R001</span></div> | 书格 |  有品格的数字古籍图书馆 | [‣ 历代名公画谱 \| 2019-11-09](https://new.shuge.org/view/li_dai_ming_gong_hua_pu/#new_tab)<br/>[‣ 家具陈设画册 \| 2019-11-09](https://new.shuge.org/view/jia_ju_chen_she_hua_ce/#new_tab)  |  [订阅地址](https://www.shuge.org/feed/) |  
 | <h2 id="自定义">自定义</h2> |  |   |  |
-| <div id="R001" style="text-align: center;"><span>Z001</span></div> | SCP |  SCP基金会翻译 | [‣ O5-GOC 🌈 2021-06-24](http://scp-wiki-cn.wikidot.com/o5-goc)<br/>[‣ SCP-6000：物性论 🌈 2021-06-24](http://scp-wiki-cn.wikidot.com/6000contestorbeeztertius)  |  [订阅地址](http://scp-wiki-cn.wikidot.com/feed/pages/pagename/most-recently-created-translated/category/-fragment%2C-deleted/tags/scp%2Cwanderers%2C%E6%95%85%E4%BA%8B%2Cgoi%E6%A0%BC%E5%BC%8F%2C%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81%2C%E4%B8%AD%E5%BF%83%2C%E6%8C%87%E5%AF%BC%2C%E6%96%87%E7%AB%A0%2C%E7%BB%84%E4%BB%B6%2C%E7%89%88%E5%BC%8F%2C%E7%AB%9E%E8%B5%9B%2C%E5%BE%85%E5%88%A0%E9%99%A4%2C%E5%BE%85%E5%88%AA%E9%99%A4%2C-%E6%8E%A9%E8%97%8F%E9%A1%B5%2C-%E5%8E%9F%E5%88%9B/order/created_at+desc/limit/15/t/Most+Recently+Created+Translated.xml) |  
+| <div id="R001" style="text-align: center;"><span>Z001</span></div> | SCP |  SCP基金会翻译 | [‣ SCP-6000 - 只是个小测试？ 🌈 2021-06-24](http://scp-wiki-cn.wikidot.com/6000contestthevert)<br/>[‣ O5-GOC 🌈 2021-06-24](http://scp-wiki-cn.wikidot.com/o5-goc)  |  [订阅地址](http://scp-wiki-cn.wikidot.com/feed/pages/pagename/most-recently-created-translated/category/-fragment%2C-deleted/tags/scp%2Cwanderers%2C%E6%95%85%E4%BA%8B%2Cgoi%E6%A0%BC%E5%BC%8F%2C%E8%89%BA%E6%9C%AF%E4%BD%9C%E5%93%81%2C%E4%B8%AD%E5%BF%83%2C%E6%8C%87%E5%AF%BC%2C%E6%96%87%E7%AB%A0%2C%E7%BB%84%E4%BB%B6%2C%E7%89%88%E5%BC%8F%2C%E7%AB%9E%E8%B5%9B%2C%E5%BE%85%E5%88%A0%E9%99%A4%2C%E5%BE%85%E5%88%AA%E9%99%A4%2C-%E6%8E%A9%E8%97%8F%E9%A1%B5%2C-%E5%8E%9F%E5%88%9B/order/created_at+desc/limit/15/t/Most+Recently+Created+Translated.xml) |  
