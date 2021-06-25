@@ -49,7 +49,7 @@ def replace_readme():
     # 读取EditREADME.md
     print("replace_readme")
     with open(os.path.join(os.getcwd(),"EditREADME.md"),'r') as load_f:
-        edit_readme_md = load_f.read();
+        edit_readme_md = load_f.read()
         new_edit_readme_md[0] = edit_readme_md
         # before_info_list =  re.findall(r'\{\{latest_content\}\}.*\[订阅地址\]\(.*\)' ,edit_readme_md)
         before_info_list =  re.findall(r'\*\s\[订阅地址\]\(.*\)\s+\{\{latest_content\}\}' ,edit_readme_md)
@@ -71,15 +71,20 @@ def replace_readme():
                 latest_content = "[更新失败]("+ scheme_netloc_url +")"
             else:
                 rss_item_num=0
+                with open(os.path.join(os.getcwd(),"README.md"),'r') as load_f_old:
+                        old_readme_md = load_f_old.read()
+                        old_info_list =  re.findall(r'    \* \[(.*?)\]\(' ,old_readme_md)
+
                 for rss_item in rss_info:
+                    if rss_item["title"] in old_info_list:
+                        isnew=''
+                    else:
+                        isnew=' *new!* '
+
                     rss_item["title"] = rss_item["title"].replace("|", "\|")
                     rss_item["title"] = rss_item["title"].replace("[", "\[")
-                    rss_item["title"] = rss_item["title"].replace("]", "\]")
-                    if (rss_item["date"] == datetime.today().strftime("%Y-%m-%d")):
-                        istoday= " new! "
-                    else:
-                        istoday= "" 
-                    latest_content += "    * ["  + rss_item["title"]  +"](" + rss_item["link"] +") "+ istoday +"\n"  
+                    rss_item["title"] = rss_item["title"].replace("]", "\]")      
+                    latest_content += "    * ["  + rss_item["title"]  +"](" + rss_item["link"] +") "+ isnew +"\n"  
                     rss_item_num+=1
                     if rss_item_num>=10:
                         break               
