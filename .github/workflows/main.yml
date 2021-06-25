@@ -2,9 +2,6 @@ name: UpdateRSS
 on:
   schedule:
     - cron:  '0 22 * * *'    # 国际标准时间22点（北京时间早上6点发）
-  push:
-    branches:    
-      - develop
   workflow_dispatch:
   
 jobs:
@@ -12,9 +9,9 @@ jobs:
       runs-on: ubuntu-20.04
       steps:
       - uses: actions/checkout@v2 # Checking out the repo
-        name: checkout develop branch
+        name: checkout new branch
         with:
-          ref: develop
+          ref: new
           
       - uses: actions/cache@v2
         name: cache pipenv
